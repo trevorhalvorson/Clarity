@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClarityView">
+        <attr name="android:text" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+        <attr name="android:textStyle" />
+
+        <attr name="clarity_lowerAlphabetColor" format="color" />
+        <attr name="clarity_numberColor" format="color" />
+        <attr name="clarity_symbolColor" format="color" />
+        <attr name="clarity_upperAlphabetColor" format="color" />
+    </declare-styleable>
+</resources>

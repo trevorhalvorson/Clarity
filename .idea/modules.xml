@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clarity.iml" filepath="$PROJECT_DIR$/Clarity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clarity/clarity.iml" filepath="$PROJECT_DIR$/clarity/clarity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clarity-sample/clarity-sample.iml" filepath="$PROJECT_DIR$/clarity-sample/clarity-sample.iml" />
+    </modules>
+  </component>
+</project>

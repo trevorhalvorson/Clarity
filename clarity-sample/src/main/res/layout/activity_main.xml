@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.trevorhalvorson.clarity_sample.MainActivity">
+
+    <com.trevorhalvorson.clarity.ClarityView
+        android:id="@+id/clarity_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:clarity_lowerAlphabetColor="@color/colorLowerAlpha"
+        app:clarity_numberColor="@color/colorNumber"
+        app:clarity_symbolColor="@color/colorSymbol"
+        app:clarity_upperAlphabetColor="@color/colorUpperAlpha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/generate_button"
+        tools:text="@string/test_text" />
+
+    <Button
+        android:id="@+id/generate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
