@@ -1,5 +1,7 @@
 # Clarity
 
+[![CircleCI](https://circleci.com/gh/trevorhalvorson/Clarity.svg?style=svg)](https://circleci.com/gh/trevorhalvorson/Clarity)
+
 Clarity is a simple Android custom view for displaying character-colored text.
 This is common is password manager applications where numbers, letters, and symbols are shown together,
 but given different colors in order to make them easier to distinguish.
